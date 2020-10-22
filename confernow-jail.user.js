@@ -1,7 +1,7 @@
 //==UserScript==
 // @name		ConferNow Jail
 // @namespace		http://tampermonkey.net
-// @updateURL		https://raw.githubusercontent.com/fitzmorrispr/confernow-jail/main/confernow-jail.js
+// @updateURL		https://raw.githubusercontent.com/fitzmorrispr/confernow-jail/main/confernow-jail.user.js
 // @license		Unlicense
 // @version		1.0
 // @description		Prevent ConferNow from escaping its iFrame(jail), except by opening a new tab(leaving the country).
