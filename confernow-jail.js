@@ -1,13 +1,13 @@
 //==UserScript==
-// @name          ConferNow Jail
-// @namespace     http://tampermonkey.net
-// @updateURL
-// @license       Unlicense
-// @version       1.0
-// @description  	Prevent ConferNow from escaping its iFrame(jail), except by opening a new tab(leaving the country).
-// @author        fitzmorrispr
-// @match         https://online.smc.edu/*
-// @grant         all
+// @name		ConferNow Jail
+// @namespace		http://tampermonkey.net
+// @updateURL		https://raw.githubusercontent.com/fitzmorrispr/confernow-jail/main/confernow-jail.js
+// @license		Unlicense
+// @version		1.0
+// @description		Prevent ConferNow from escaping its iFrame(jail), except by opening a new tab(leaving the country).
+// @author		fitzmorrispr
+// @match		https://online.smc.edu/*
+// @grant		all
 // ==/UserScript==
 
 function GuiltyByAssociation(guiltyselector, sibselector){
